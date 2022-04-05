@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "standared-version"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/arkarsoeDev/git-test/issues"
   },
-  "homepage": "https://github.com/arkarsoeDev/git-test#readme"
+  "homepage": "https://github.com/arkarsoeDev/git-test#readme",
+  "devDependencies": {
+    "standard-version": "^9.3.2"
+  }
 }
